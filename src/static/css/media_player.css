@@ -1,0 +1,115 @@
+.collapsibleList li > input + * {
+    display: none;
+}
+
+.collapsibleList li > input:checked + * {
+    display: block;
+}
+
+.collapsibleList li > input {
+    display: none;
+}
+
+.collapsibleList label {
+    cursor: pointer;
+    display:block;
+    height:25px;
+    width:1000px;
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+
+.collapsibleList label:hover {
+    background-color:#2E2E2E;
+}
+
+ul.collapsibleList {
+    padding:0;
+    margin:0;
+}
+
+.collapsibleList li {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.collapsibleList li a {
+    display:block;
+    width:1000px;
+    height:25px;
+    color:black;
+    text-decoration:none;
+    background-color:#CFCFA6;
+    font-size:20px;
+}
+
+.collapsibleList li a:hover {
+    background-color:#2E2E2E;
+    color:white;
+}
+.collapsibleList li a:visited {
+    background-color:#CC7A00;
+}
+
+div#medialist {
+    padding-bottom:2em;
+}
+#medialist input {
+    display:none;
+}
+
+#medialist label {
+    display:white;
+}
+
+div#content {
+/*    background-color:black;*/
+    position: relative;
+}
+
+div#albumart {
+    width:300px;
+    margin:0 auto;
+}
+#albumart img {
+    width:300px;
+    height:300px;
+}
+video {
+    width:1000px;
+    height:564;
+}
+div#audioplayer {
+    width:300px;
+    clear:both;
+    margin:0 auto;
+}
+#audioplayer audio {
+    width:300px;
+}
+div#mediacontainer {
+    max-width:1000px;
+    overflow:hidden;
+    margin:0 auto;
+    background-color:black;
+}
+div#heading {
+    color:white;
+    text-align:center;
+    width:100%;
+}
+#heading h1 {
+    padding:0;
+    margin:0;
+}
+#heading hr {
+    color:white;
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(256,256,256,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(256,256,256,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(256,256,256,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(256,256,256,0.75), rgba(0,0,0,0));
+}
